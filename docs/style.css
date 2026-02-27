@@ -1,12 +1,20 @@
 body {
 
     /*background:papayaWhip*/
-    background: LightSteelBlue;
+    background: DarkSlateBlue;
     font-family: Comic-sans, Arial, Helvetica, sans-serif;
+    color: MistyRose; 
+    line-height:1.5rem;
+}
+div{
+   border-style: double;
+   padding: 2em;
+   
 }
 
 div.side-by-side {
     display: flex;
+    
 }
 
 img {
@@ -17,4 +25,8 @@ img {
 .featureBlock {
     background-color:pink;
     font-size: smaller;
+}
+
+a {
+    color: MistyRose;
 }
