@@ -12,6 +12,12 @@ div{
    
 }
 
+figure{
+   border-style: double;
+   padding: 2em;
+   
+}
+
 div.side-by-side {
     display: flex;
     
