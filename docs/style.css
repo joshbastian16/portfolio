@@ -1,6 +1,6 @@
 body {
 
-    /*background:papayaWhip*/
+    
     background: DarkSlateBlue;
     font-family: Comic-sans, Arial, Helvetica, sans-serif;
     color: MistyRose; 
@@ -8,31 +8,48 @@ body {
 }
 div{
    border-style: double;
-   padding: 2em;
+   padding: 1em;
    
 }
 
 figure{
-   border-style: double;
+   border-style: dotted;
    padding: 2em;
    
 }
 
+figcaption {
+    font-size: large;
+    padding: 1em;
+}
+
 div.side-by-side {
     display: flex;
-    
+}
+
+img.side-by-side{
+    display: flex;
+    width: 50%;
 }
 
 img {
-    width: 59%;
-    max-width: 500px;
+    display: flex;
+    width: 100%;
+    max-width: 1000px;
 }
 
-.featureBlock {
-    background-color:pink;
-    font-size: smaller;
-}
 
 a {
     color: MistyRose;
+    
+}
+
+a:hover{
+    color: FloralWhite;
+}
+
+nav{
+    font-size: xx-large;
+    text-align: Center;
+    padding: 10px;
 }
