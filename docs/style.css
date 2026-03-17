@@ -27,6 +27,13 @@ div.side-by-side {
     display: flex;
 }
 
+div.essay {
+    border-style: dotted;
+    padding: 1em;
+    font-size: large;
+    line-height: 1.5rem;
+}
+
 img.side-by-side{
     display: flex;
     width: 50%;
