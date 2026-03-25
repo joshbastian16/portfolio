@@ -49,7 +49,7 @@ img {
 }
 
 img.gal {
-    width:100%;
+    width:80%;
     display: flex;
     max-width: 1000px;
 }
