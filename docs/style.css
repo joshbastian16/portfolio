@@ -25,6 +25,7 @@ figcaption {
 
 div.side-by-side {
     display: flex;
+    justify-content: center;
 }
 
 div.essay {
@@ -36,7 +37,7 @@ div.essay {
 
 img.side-by-side{
     display: flex;
-    width: 50%;
+    width: 45%;
     padding: 1rem;
     border-style: dotted;
 }
@@ -47,6 +48,11 @@ img {
     max-width: 1000px;
 }
 
+img.gal {
+    width:100%;
+    display: flex;
+    max-width: 1000px;
+}
 
 a {
     color: MistyRose;
@@ -61,4 +67,42 @@ nav{
     font-size: xx-large;
     text-align: Center;
     padding: 10px;
+}
+
+div.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+div.gallery-item {
+  margin: 5px;
+  border: 1px solid #ccc;
+  width: 400px;
+}
+
+div.gallery-item:hover {
+  border: 1px solid #777;
+}
+
+div.gallery-item img {
+  width: 100%;
+  height: auto;
+}
+
+div.gallery-item div.desc {
+  padding: 15px;
+  text-align: center;
+  border-style: dotted;
+}
+
+div.txt{
+    width: 50%;
+    text-align: center;
+}
+
+div.p{
+    text-align: left;
+    border-style: dashed;
+    font-size: larger;
 }
