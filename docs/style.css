@@ -37,6 +37,8 @@ div.essay {
 img.side-by-side{
     display: flex;
     width: 50%;
+    padding: 1rem;
+    border-style: dotted;
 }
 
 img {
