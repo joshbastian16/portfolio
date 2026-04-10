@@ -100,6 +100,12 @@ div.txt{
     width: 50%;
     text-align: center;
 }
+div.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: hidden;
+}
 
 div.p{
     text-align: left;
