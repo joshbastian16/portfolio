@@ -54,6 +54,11 @@ img.gal {
     max-width: 1000px;
 }
 
+.gal:hover {
+    transition: transform .2s;
+    transform: scale(2);
+}
+
 a {
     color: MistyRose;
     
@@ -72,7 +77,7 @@ nav{
 div.gallery {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 div.gallery-item {
@@ -97,7 +102,7 @@ div.gallery-item div.desc {
 }
 
 div.txt{
-    width: 50%;
+    width: 95%;
     text-align: center;
 }
 div.center{
@@ -111,4 +116,26 @@ div.p{
     text-align: left;
     border-style: dashed;
     font-size: larger;
+}
+
+div.high{
+    width: 90%;
+    text-align: left;
+    border-style: dashed;
+    font-size: larger;
+    color: lightsteelblue;
+}
+
+div.low{
+    text-align: left;
+    border-style: dashed;
+    font-size: larger;
+    color: indianred;
+}
+
+div.analysis{
+    text-align: left;
+    border-style: dashed;
+    font-size: larger;
+    color: orchid;
 }
