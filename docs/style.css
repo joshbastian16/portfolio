@@ -139,3 +139,10 @@ div.analysis{
     font-size: larger;
     color: orchid;
 }
+
+img.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+}
